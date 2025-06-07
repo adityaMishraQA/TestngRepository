@@ -1,6 +1,7 @@
 package org.example;
 
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -31,6 +32,11 @@ public class TestngGroupsBasic {
     public void beforeTest3()
     {
         System.out.println("Before test");
+    }
+    @AfterTest
+    public void afterTest1()
+    {
+        System.out.println("After test");
     }
 
 
