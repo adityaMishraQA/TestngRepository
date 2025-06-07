@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 @Test(groups = "Verification")
-public class Main{
+public class TestngGroupsBasic {
 
     @Test(priority = 2,groups = "Regression")
     public void test1()
