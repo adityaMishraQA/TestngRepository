@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Over all final">
+    <test verbose="2" preserve-order="true" name="Final funtional">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.TestUI"></class>
+            <class name="org.example.TestApi"></class>
+            <class name="org.example.TestngGroupsBasic"></class>
+        </classes>
+        
+    </test>
+</suite>

@@ -8,17 +8,17 @@ import org.testng.annotations.Test;
 @Test(groups = "Verification")
 public class TestngGroupsBasic {
 
-    @Test(priority = 2,groups = "Regression")
+    @Test(priority = -25,groups = "Regression")
     public void test1()
     {
         System.out.println("Test one-Regression");
     }
-    @Test(priority = 1,groups = {"Smoke","Regression"})
+    @Test(priority = 52,groups = {"Smoke","Regression"})
     public void test2()
     {
         System.out.println("Test two-Smoke and Regression");
     }
-    @Test(priority = 3,groups = "Regression")
+    @Test(priority = -14,groups = "Regression")
     public void test3()
     {
         System.out.println("Test three - Regression");
