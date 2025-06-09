@@ -50,7 +50,10 @@ public class TestingDataProve {
     @DataProvider
     public Object[] dataProve()
     {
-        return new Object[]{"Hellouser","User_1999","2000_User"};
+        return new Object[]{
+                "Hellouser",
+                "User_1999",
+                "2000_User"};
 
 
     }
