@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test preserve-order="true" name="Test">
+        <classes>
+            <class name="org.example.annotationPractise.testngMethodOrders.TestMethodClass">
+                <methods>
+                    <include name="test1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test preserve-order="true" name="Test2">
+        <classes>
+            <class name="org.example.annotationPractise.testngMethodOrders.TestMethodClass">
+                <methods>
+                    <include name="test2"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

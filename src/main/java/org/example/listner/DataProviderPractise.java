@@ -27,7 +27,7 @@ public class DataProviderPractise{
 
 
     @Parameters("browser")
-    @BeforeTest
+    @BeforeMethod
     public void preSetup(String browser)
     {
         if(browser.equals("Chrome")){
@@ -83,13 +83,9 @@ public class DataProviderPractise{
         act.scrollToElement(element3);
         act.perform();
 
-
-
-
-
     }
 
-    @AfterTest
+    @AfterMethod
     public void postSetup()
     {
         driver.close();
